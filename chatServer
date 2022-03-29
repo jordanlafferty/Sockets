@@ -16,7 +16,6 @@ public class chatServer
         clientOutput.println("What is your name?");
         String name = clientInput.nextLine();
         System.out.println("client read: " + name);
-        clientOutput.println("your name is: " + name);
     }
 }
 
